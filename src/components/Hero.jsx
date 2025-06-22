@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 p-1">
             <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center overflow-hidden">
               <img 
-                src="/me.jpg" 
+                src="./me.jpg" 
                 alt="Profile" 
                 className="w-full h-full object-cover rounded-full" 
               />
@@ -79,7 +79,7 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
               className="px-8 py-4 glass text-white font-semibold rounded-lg hover:bg-white/10 transition-all duration-200 flex items-center justify-center gap-2"
             >
-              <a href="public/resume.pdf" download>
+              <a href="./resume.pdf" download>
                 <HiDownload className="text-xl" />
               Download CV
               </a>

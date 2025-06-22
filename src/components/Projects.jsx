@@ -6,7 +6,7 @@ const Projects = () => {
     {
       title: 'Parvaaz – Your All-in-One Flight Booking Platform! ✈️',
       description: 'Travel planning just got a whole lot easier. Parvaaz is a full-featured flight booking platform that aggregates multiple airlines into a single, user-friendly interface, helping users find and book flights that best match their preferences and budget.   Key Features:Universal Flight Search: Compare flights across all major airlines in one place.Smart Filtering: Filter by price, duration, stops, and airline preferences.Secure User Authentication: Simple and safe sign-up and login.Document Management: Store passport and visa information securely.Personalized Recommendations: Get suggestions tailored to your travel profile.Admin Dashboard: Easier for non-IT team members to manage the platform and records.User Profile: An ease for the users to edit their data and access their records.',
-      image: './public/parvaaz.jpg',
+      image: '/parvaaz.jpg',
       tags: ['React JS','Express JS','MySQL','Tailwind CSS'],
       liveLink: 'https://parvaaz.vercel.app',
       codeLink: 'https://github.com/iammartariq/parvaaz',
@@ -14,7 +14,7 @@ const Projects = () => {
     {
       title: 'Virtual Voice Assistant',
       description: 'This virtual voice assistant works like your very own google-voice-assistant or Siri. I have used speech_recognition and pyttsx3 libraries in python to design and create a responsive and interactive voice assistant. FEATURES: • Modules/Libraries 1. speech_recognition to capture and interpret the commands of users accurately. 2. pyttsx3 implementation for clear and natural responses. 3. Webbrower allows the user to search the web directly through their voice commands. 4. datetime provides the user with current time on request. The virtual voice assistant listens the voice input and adjusts the ambient noises to ensure more accuracy. It then converts the speech (user’s command/input) into text using Google’s speech recognition. It provides the users with adjusted responds (as per now limited responses are available only) while also providing the user with current time conducts web searches and more. The virtual voice assistant is designed to gracefully manage the unrecognized commands/input and system errors.',
-      image: './public/chatbot.jpg',
+      image: '/chatbot.jpg',
       tags: ['Python', 'Speech Recognition', 'Pyttsx3', 'Web Browser'],
       liveLink: "https://github.com/iammartariq/Virtual-Voice-Assistant",
       codeLink: "https://github.com/iammartariq/Virtual-Voice-Assistant",

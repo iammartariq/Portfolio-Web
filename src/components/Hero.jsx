@@ -28,7 +28,7 @@ const Hero = () => {
             <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600 p-1">
             <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center overflow-hidden">
               <img 
-                src="public/me.jpg" 
+                src="/me.jpg" 
                 alt="Profile" 
                 className="w-full h-full object-cover rounded-full" 
               />

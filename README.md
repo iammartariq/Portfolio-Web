@@ -11,6 +11,7 @@ npm install
 #### 2. installing *emailjs/browser*
 ```bash
 npm install @emailjs/browser
+```
 
 #### 3. Implementing *Lucide* for icons
 In this step, we will install the *Lucide* package and import it in our application.
